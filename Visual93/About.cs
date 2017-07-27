@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Visual93
 {
-    public partial class Form1 : Form
+    public partial class About : Form
     {
-        public Form1()
+        public About()
         {
             InitializeComponent();
-        }
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new About().Show();
         }
     }
 }
